@@ -38,6 +38,8 @@ subroutine setupdbz(obsLL,odiagLL,lunin,mype,bwork,awork,nele,nobs,is,radardbz_d
 !                       . Removed my_node with corrected typecast().
 !   2017-05-12 Y. Wang and X. Wang - Following Guo replacing ob_type with polymorphic obsNode through type casting,
 !                                           POC: xuguang.wang@ou.edu
+!   2021-01-25 Y. Wang and X. Wang - Add code to generate the geographical masks for the binned static BECs and
+!                                    the adaptive hybridization, POC: xuguang.wang@ou.edu 
 !
 !   input argument list:
 !     lunin    - unit from which to read observations

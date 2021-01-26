@@ -88,6 +88,10 @@ subroutine update_guess(sval,sbias)
 !   2016-06-23  lippi   - Add update for vertical velocity (w).
 !   2018-05-01  yang    - modify the constrains to C and V in g-space, or using NLTF transfermation to C/V
 !   2019-06-17  mmorris - Enforce consistency b/w ceiling and sky cover fields
+!   2021-01-25 Y. Wang and X. Wang - Change code to generate the geographical
+!                                    masks for the binned static BECs and
+!                                    the adaptive hybridization, POC:
+!                                    xuguang.wang@ou.edu
 !
 !   input argument list:
 !    sval

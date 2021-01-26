@@ -16,6 +16,9 @@ module pcgsoimod
 !   2014-12-03  derber - thread dot products and modify so obsdiag can be turned off
 !   2018-08-10  guo     - removed m_obsHeadBundle references
 !                       - replaced stpjo_setup() with a new stpjomod::stpjo_setup()
+!   2021-01-25 Y. Wang and X. Wang - Change code to generate the geographical
+!                                    masks for the binned static BECs and
+!                                    the adaptive hybridization, POC: xuguang.wang@ou.edu
 !
 ! subroutines included:
 !   sub pcgsoi
